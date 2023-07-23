@@ -1,0 +1,25 @@
+{
+  "name": "@lich/utils",
+  "version": "1.0.0",
+  "description": "any2json utils library",
+  "main": "src/index.ts",
+  "module": "dist/any2json-utils.esm.js",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "author": "Li chenghuan",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Liar0320/any2json.git"
+  },
+  "buildOptions": {
+    "name": "any2json-utils",
+    "formats": [
+      "global",
+      "cjs",
+      "esm-bundler"
+    ]
+  }
+}

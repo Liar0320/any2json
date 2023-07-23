@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<resource>
+  <string name="Language">简体中文</string>
+  <string name="OK">确定</string>
+  <string name="Apply">应用</string>
+  <string name="Cancel">取消</string>
+  <string name="Close">关闭</string>
+  <string name="Save">保存</string>
+</resource>

@@ -1,0 +1,47 @@
+{
+  "name": "any2json-v2",
+  "version": "1.0.0",
+  "description": "A library of tools for exporting data to excel ini json xml with support for reverse",
+  "main": "src/index.ts",
+  "module": "dist/any2json.esm.js",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "any2json",
+    "excel",
+    "json",
+    "xml",
+    "csv",
+    "xlsx"
+  ],
+  "author": "Li ChengHuan",
+  "license": "ISC",
+  "dependencies": {
+    "@types/file-saver": "^2.0.5",
+    "@lich/utils": "workspace:^",
+    "events": "^3.3.0",
+    "file-saver": "^2.0.5",
+    "json5": "^2.2.3",
+    "stream": "^0.0.2",
+    "timers": "^0.1.1",
+    "xlsx": "^0.18.5",
+    "xml2js": "^0.6.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Liar0320/any2json.git"
+  },
+  "buildOptions": {
+    "name": "any2json",
+    "formats": [
+      "global",
+      "cjs",
+      "esm-bundler"
+    ]
+  },
+  "devDependencies": {
+    "@types/xml2js": "^0.4.11"
+  }
+}
