@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "docs:dev": "pnpm -C docs dev",
-    "docs:build": "concurrently \"pnpm run build\" \"pnpm -C docs build\"",
+    "docs:build": "pnpm run build && pnpm -C docs build",
     "docs:preview": "pnpm -C docs preview",
     "scripts:dev": "pnpm -C scripts dev",
     "playground:dev": "pnpm -C playground dev",
